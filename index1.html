@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fruggy</title>
+  <link rel="stylesheet" href="./style1.css" />
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- nav -->
+  <nav class="bg-white shadow-2xl mb-6 w-full h-16 flex items-center justify-between px-4 sm:px-10">
+    <h1
+      class="bg-gradient-to-r from-orange-500 to-lime-500 text-2xl font-thin bg-clip-text text-transparent font-mono tracking-tighter cursor-pointer">
+      FRUGGY
+    </h1>
+
+    <ul class="flex flex-wrap justify-center gap-3 font-normal text-sm sm:text-base">
+      <li class="list-none inline-block px-5">
+        <a class="text-black px-2 hover:text-lime-700" href="">About Us</a>
+      </li>
+      <li class="list-none inline-block px-5">
+        <a class="text-black px-2 hover:text-lime-700" href="">Contact</a>
+      </li>
+      <li class="list-none inline-block px-5">
+        <a class="text-black px-2 hover:text-lime-700" href="">Orders</a>
+      </li>
+      <li class="list-none inline-block px-5">
+        <a href="#"
+          class="bg-lime-500 hover:bg-lime-700 text-white font-semibold py-2 px-3 rounded transition-all duration-300">
+          Shop Now
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- main -->
+  <div
+    class="relative w-full h-[75vh] bg-cover bg-center drop-shadow-[0_10px_10px_rgba(0,0,0,0.28)] bg-[url('/fruitvegimages/fruit.jpg')]">
+    <h2
+      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl font-semibold font-sans tracking-wide text-center px-4">
+      Welcome to Fruggy!
+    </h2>
+  </div>
+
+  <!-- intro -->
+  <section class="mt-10 px-4 text-center">
+    <h2 class="text-3xl font-bold text-lime-800 mb-4">Freshness & Quality,Every Day</h2>
+    <p class="text-gray-700 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed">
+      We offer a wide variety of fresh and organic fruits delivered straight from local farms to your home. Choose your favorites and order with ease.
+    </p>
+  </section>
+
+  <!-- cards -->
+  <div class="container mx-auto my-10 px-4 flex flex-wrap justify-center gap-6">
+
+    <!-- Card 1 -->
+    <div class="border rounded-lg shadow-md p-4 w-full sm:w-[48%] md:w-[30%] flex flex-col h-full">
+      <img src="./fruitvegimages/banana.webp" alt="image1" class="w-full h-48 object-cover rounded-md" />
+      <h4 class="font-semibold mt-2 text-center">Cavendish</h4>
+      <p class="text-justify text-sm mt-1 text-center">
+        The Cavendish banana is the most common banana variety worldwide, known for its smooth texture, sweetness, and bright yellow peel when ripe.
+      </p>
+      <a
+        class="mt-3 bg-lime-500 py-2 px-4 rounded-3xl font-medium hover:bg-transparent hover:border hover:border-lime-700 duration-500 text-center w-fit mx-auto"
+        href="#">Order Now</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="border rounded-lg shadow-md p-4 w-full sm:w-[48%] md:w-[30%] flex flex-col h-full">
+      <img src="./fruitvegimages/avacado border.avif" alt="image2" class="w-full h-48 object-cover rounded-md" />
+      <h4 class="font-semibold mt-2 text-center">Fuerte</h4>
+      <p class="text-justify text-sm mt-1 text-center">
+        The Fuerte banana is a popular variety known for its firm texture and mild, creamy sweetness. It has a smooth consistency and a longer shelf life.
+      </p>
+      <a
+        class="mt-3 bg-lime-500 py-2 px-4 rounded-3xl font-medium hover:bg-transparent hover:border hover:border-lime-700 duration-500 text-center w-fit mx-auto"
+        href="#">Order Now</a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="border rounded-lg shadow-md p-4 w-full sm:w-[48%] md:w-[30%] flex flex-col h-full">
+      <img src="./fruitvegimages/alphonso.webp" alt="image3" class="w-full h-48 object-cover rounded-md" />
+      <h4 class="font-semibold mt-2 text-center">Kesar</h4>
+      <p class="text-justify text-sm mt-1 text-center">
+        Kesar bananas are known for their rich sweetness and smooth texture. Small to medium in size with a bright yellow peel, they are ideal for daily snacking.
+      </p>
+      <a
+        class="mt-3 bg-lime-500 py-2 px-4 rounded-3xl font-medium hover:bg-transparent hover:border hover:border-lime-700 duration-500 text-center w-fit mx-auto"
+        href="#">Order Now</a>
+    </div>
+
+  </div>
+</body>
+
+</html>
